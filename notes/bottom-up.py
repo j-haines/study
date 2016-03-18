@@ -24,3 +24,4 @@ def product_1_to_n(n):
         into subproblems with smaller values
     - coin.py computes small values first, using those to iteratively compute
         the answer for higher values
+"""
