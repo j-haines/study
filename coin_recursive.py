@@ -24,7 +24,6 @@ def memoize(func):
 
 @memoize
 def coin(amount, denominations):
-    print('[i] Calculating ways to make %d with %s' % (amount, denominations))
     if amount == 0: # Hit the amount spot on
         return 1
     elif amount < 0: # Overshot the amount
